@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  get "tictactoe", controller: "games_pages", action: "show_board"
+  get "/tictactoe", controller: "games_pages", action: "show_board"
+  get "/poker", controller: "games_pages", action: "random_hand"
 end

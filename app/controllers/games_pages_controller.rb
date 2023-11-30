@@ -6,4 +6,8 @@ class GamesPagesController < ApplicationController
       [" ", " ", " "]
     ]
   end
+
+  def random_hand
+    render json: {hi: "hello"}
+  end
 end
