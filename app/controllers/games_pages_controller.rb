@@ -1,5 +1,9 @@
 class GamesPagesController < ApplicationController
   def show_board
-    render json: {message: "hello"}
+    render json: [
+      [" ", " ", " "],
+      [" ", " ", " "],
+      [" ", " ", " "]
+    ]
   end
 end
